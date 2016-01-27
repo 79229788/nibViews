@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = HexRGB(0xf5f5f5)
+        let myView = HomeLinkerView.loadFromNib(frame: CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width * 100 / 320))
+        self.view.addSubview(myView)
     }
 
     override func didReceiveMemoryWarning() {
