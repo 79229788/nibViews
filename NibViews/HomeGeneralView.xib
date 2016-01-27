@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -41,22 +41,19 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNe-4R-jPY">
-                            <rect key="frame" x="0.0" y="35.5" width="304" height="114"/>
+                            <rect key="frame" x="0.0" y="36" width="304" height="114"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4w-Jd-fb9" userLabel="RoundView">
                                     <rect key="frame" x="100" y="0.0" width="104.5" height="105"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linshi2.png" translatesAutoresizingMaskIntoConstraints="NO" id="6FH-xy-q4v">
-                                            <rect key="frame" x="0.0" y="0.0" width="104.5" height="105"/>
-                                        </imageView>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9DT-7c-OE9" userLabel="roundWidget">
                                             <rect key="frame" x="0.0" y="0.0" width="104.5" height="105"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h0R-4y-prT" userLabel="NumberWidget">
-                                                    <rect key="frame" x="10" y="24" width="83.5" height="38"/>
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h0R-4y-prT" userLabel="NumberWidget">
+                                                    <rect key="frame" x="12.5" y="25" width="78.5" height="36"/>
                                                     <color key="backgroundColor" white="1" alpha="0.59459459459999997" colorSpace="calibratedWhite"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" secondItem="h0R-4y-prT" secondAttribute="height" multiplier="4:1.8" id="c2v-8H-eUQ"/>
+                                                        <constraint firstAttribute="width" secondItem="h0R-4y-prT" secondAttribute="height" multiplier="4:2" id="c2v-8H-eUQ"/>
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看评分详情" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EuD-JS-rt9">
@@ -72,21 +69,17 @@
                                                 <constraint firstItem="EuD-JS-rt9" firstAttribute="leading" secondItem="9DT-7c-OE9" secondAttribute="leading" id="HxB-jJ-AiH"/>
                                                 <constraint firstAttribute="trailing" secondItem="EuD-JS-rt9" secondAttribute="trailing" id="OJw-8n-XCb"/>
                                                 <constraint firstItem="EuD-JS-rt9" firstAttribute="top" secondItem="h0R-4y-prT" secondAttribute="bottom" constant="5" id="ayU-l8-Y3E"/>
-                                                <constraint firstItem="h0R-4y-prT" firstAttribute="centerX" secondItem="9DT-7c-OE9" secondAttribute="centerX" id="fyV-9J-z3u"/>
+                                                <constraint firstItem="h0R-4y-prT" firstAttribute="centerX" secondItem="9DT-7c-OE9" secondAttribute="centerX" constant="-1" id="fyV-9J-z3u"/>
                                             </constraints>
                                         </view>
                                     </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="6FH-xy-q4v" secondAttribute="bottom" id="1O0-5w-185"/>
                                         <constraint firstAttribute="trailing" secondItem="9DT-7c-OE9" secondAttribute="trailing" id="Aie-ht-k8a"/>
-                                        <constraint firstItem="h0R-4y-prT" firstAttribute="width" secondItem="u4w-Jd-fb9" secondAttribute="width" multiplier="0.8" id="By2-hV-fvQ"/>
-                                        <constraint firstAttribute="trailing" secondItem="6FH-xy-q4v" secondAttribute="trailing" id="Czz-7E-OyI"/>
+                                        <constraint firstItem="h0R-4y-prT" firstAttribute="width" secondItem="u4w-Jd-fb9" secondAttribute="width" multiplier="0.7" id="By2-hV-fvQ"/>
                                         <constraint firstAttribute="width" secondItem="u4w-Jd-fb9" secondAttribute="height" multiplier="1:1" id="D5B-Yk-Xmx"/>
                                         <constraint firstAttribute="bottom" secondItem="9DT-7c-OE9" secondAttribute="bottom" id="FFF-4X-IQW"/>
-                                        <constraint firstItem="6FH-xy-q4v" firstAttribute="leading" secondItem="u4w-Jd-fb9" secondAttribute="leading" id="PGl-6c-e7D"/>
                                         <constraint firstItem="9DT-7c-OE9" firstAttribute="leading" secondItem="u4w-Jd-fb9" secondAttribute="leading" id="WFd-aC-Jsh"/>
-                                        <constraint firstItem="6FH-xy-q4v" firstAttribute="top" secondItem="u4w-Jd-fb9" secondAttribute="top" id="Ydl-zO-NG2"/>
                                         <constraint firstItem="9DT-7c-OE9" firstAttribute="top" secondItem="u4w-Jd-fb9" secondAttribute="top" id="x5H-77-rHw"/>
                                     </constraints>
                                 </view>
@@ -105,7 +98,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="304" height="45"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2T6-VE-ISn">
-                                            <rect key="frame" x="0.0" y="0.0" width="101.5" height="45"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="102" height="45"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="累计喂养" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAs-ma-aRC">
                                                     <rect key="frame" x="0.0" y="0.0" width="101.5" height="21"/>
@@ -147,7 +140,7 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJE-2Z-uai">
-                                            <rect key="frame" x="101.5" y="0.0" width="101" height="45"/>
+                                            <rect key="frame" x="102" y="0.0" width="101" height="45"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8个月6天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24u-Ih-zm3">
                                                     <rect key="frame" x="0.0" y="21" width="101" height="21"/>
@@ -189,7 +182,7 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GhO-0j-1cj">
-                                            <rect key="frame" x="202.5" y="0.0" width="101.5" height="45"/>
+                                            <rect key="frame" x="203" y="0.0" width="102" height="45"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="宝宝体重" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdl-IZ-YYX">
                                                     <rect key="frame" x="0.0" y="0.0" width="101.5" height="21"/>
@@ -271,6 +264,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="backgroundImage" destination="vvn-2W-iyL" id="Akd-Xi-7rO"/>
+                <outlet property="numberView" destination="h0R-4y-prT" id="V5w-Th-KRm"/>
                 <outlet property="roundView" destination="u4w-Jd-fb9" id="zPS-gE-iZv"/>
                 <outlet property="separator1" destination="KKC-pt-5nT" id="mgc-Oe-ZeH"/>
                 <outlet property="separator2" destination="r8D-xo-vet" id="W4v-Z5-cR6"/>
@@ -278,9 +272,9 @@
             </connections>
             <point key="canvasLocation" x="316" y="398"/>
         </view>
+        <navigationItem title="Title" id="s88-vu-OhI"/>
     </objects>
     <resources>
         <image name="header_long_bg1.png" width="1080" height="902"/>
-        <image name="linshi2.png" width="369" height="369"/>
     </resources>
 </document>

@@ -11,7 +11,6 @@
 		3D34AE961C58B758005BCED3 /* HomeGeneralView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D34AE941C58B758005BCED3 /* HomeGeneralView.xib */; };
 		3D34AE971C58B758005BCED3 /* HomeGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D34AE951C58B758005BCED3 /* HomeGeneralView.swift */; };
 		3D34AE9A1C58B7E6005BCED3 /* header_long_bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D34AE991C58B7E6005BCED3 /* header_long_bg1.png */; };
-		3D34AE9C1C58B7FD005BCED3 /* linshi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D34AE9B1C58B7FD005BCED3 /* linshi2.png */; };
 		3D34AE9E1C58C2F3005BCED3 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D34AE9D1C58C2F3005BCED3 /* Macros.swift */; };
 		3D34AEA01C58C6EF005BCED3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3D34AE9F1C58C6EF005BCED3 /* Podfile */; };
 		3D44EEAB1C58D06200A2F7AE /* HomePlanItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D44EEAA1C58D06200A2F7AE /* HomePlanItemView.xib */; };
@@ -29,6 +28,9 @@
 		3D8BB9ED1C57DB470025AC52 /* homepage_linker_grown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8BB9EC1C57DB470025AC52 /* homepage_linker_grown.png */; };
 		3D8BB9EF1C57DCEC0025AC52 /* homepage_linker_recipes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8BB9EE1C57DCEC0025AC52 /* homepage_linker_recipes.png */; };
 		3D8BB9F11C57DDBB0025AC52 /* homepage_linker_alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8BB9F01C57DDBA0025AC52 /* homepage_linker_alarm.png */; };
+		3D8BB9F41C59134A0025AC52 /* AnimLinexProgressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB9F31C59134A0025AC52 /* AnimLinexProgressWidget.swift */; };
+		3D8BB9F61C5925500025AC52 /* AnimCircleProgressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB9F51C5925500025AC52 /* AnimCircleProgressWidget.swift */; };
+		3D8BB9F81C5928C20025AC52 /* AnimNumTimerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB9F71C5928C20025AC52 /* AnimNumTimerWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +38,6 @@
 		3D34AE941C58B758005BCED3 /* HomeGeneralView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeGeneralView.xib; sourceTree = "<group>"; };
 		3D34AE951C58B758005BCED3 /* HomeGeneralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeGeneralView.swift; sourceTree = "<group>"; };
 		3D34AE991C58B7E6005BCED3 /* header_long_bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_long_bg1.png; sourceTree = "<group>"; };
-		3D34AE9B1C58B7FD005BCED3 /* linshi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linshi2.png; sourceTree = "<group>"; };
 		3D34AE9D1C58C2F3005BCED3 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
 		3D34AE9F1C58C6EF005BCED3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3D44EEAA1C58D06200A2F7AE /* HomePlanItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePlanItemView.xib; sourceTree = "<group>"; };
@@ -56,6 +57,10 @@
 		3D8BB9EC1C57DB470025AC52 /* homepage_linker_grown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage_linker_grown.png; sourceTree = "<group>"; };
 		3D8BB9EE1C57DCEC0025AC52 /* homepage_linker_recipes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage_linker_recipes.png; sourceTree = "<group>"; };
 		3D8BB9F01C57DDBA0025AC52 /* homepage_linker_alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage_linker_alarm.png; sourceTree = "<group>"; };
+		3D8BB9F31C59134A0025AC52 /* AnimLinexProgressWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimLinexProgressWidget.swift; sourceTree = "<group>"; };
+		3D8BB9F51C5925500025AC52 /* AnimCircleProgressWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimCircleProgressWidget.swift; sourceTree = "<group>"; };
+		3D8BB9F71C5928C20025AC52 /* AnimNumTimerWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimNumTimerWidget.swift; sourceTree = "<group>"; };
+		3D8BB9FA1C5929020025AC52 /* NibViews-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NibViews-Bridging-Header.h"; sourceTree = "<group>"; };
 		5673F1F0FB32E734A574D439 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DE2FFBC5C52108437732513B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				3D34AE991C58B7E6005BCED3 /* header_long_bg1.png */,
-				3D34AE9B1C58B7FD005BCED3 /* linshi2.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -136,9 +140,11 @@
 				3D8BB9D21C57B9BF0025AC52 /* Assets.xcassets */,
 				3D8BB9CF1C57B9BF0025AC52 /* Main.storyboard */,
 				3D8BB9D41C57B9BF0025AC52 /* LaunchScreen.storyboard */,
+				3D8BB9F21C5913130025AC52 /* Widget */,
 				3D8BB9D71C57B9BF0025AC52 /* Info.plist */,
 				3D8BB9DD1C57BA9E0025AC52 /* Extension.swift */,
 				3D34AE9D1C58C2F3005BCED3 /* Macros.swift */,
+				3D8BB9FA1C5929020025AC52 /* NibViews-Bridging-Header.h */,
 			);
 			path = NibViews;
 			sourceTree = "<group>";
@@ -181,6 +187,16 @@
 				3D8BB9E11C57BB530025AC52 /* HomeLinkerView.swift */,
 			);
 			name = HomeLinkerView;
+			sourceTree = "<group>";
+		};
+		3D8BB9F21C5913130025AC52 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BB9F31C59134A0025AC52 /* AnimLinexProgressWidget.swift */,
+				3D8BB9F51C5925500025AC52 /* AnimCircleProgressWidget.swift */,
+				3D8BB9F71C5928C20025AC52 /* AnimNumTimerWidget.swift */,
+			);
+			name = Widget;
 			sourceTree = "<group>";
 		};
 		87C48962DA8BC304D3AFEFCF /* Pods */ = {
@@ -269,7 +285,6 @@
 				3D34AE961C58B758005BCED3 /* HomeGeneralView.xib in Resources */,
 				3D8BB9D31C57B9BF0025AC52 /* Assets.xcassets in Resources */,
 				3D8BB9EB1C57D8640025AC52 /* homepage_linker_stats.png in Resources */,
-				3D34AE9C1C58B7FD005BCED3 /* linshi2.png in Resources */,
 				3D8BB9D11C57B9BF0025AC52 /* Main.storyboard in Resources */,
 				3D34AEA01C58C6EF005BCED3 /* Podfile in Resources */,
 				3D8BB9ED1C57DB470025AC52 /* homepage_linker_grown.png in Resources */,
@@ -335,11 +350,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D34AE9E1C58C2F3005BCED3 /* Macros.swift in Sources */,
+				3D8BB9F81C5928C20025AC52 /* AnimNumTimerWidget.swift in Sources */,
 				3D34AE971C58B758005BCED3 /* HomeGeneralView.swift in Sources */,
 				3D8BB9E21C57BB530025AC52 /* HomeLinkerView.swift in Sources */,
 				3D8BB9DE1C57BA9E0025AC52 /* Extension.swift in Sources */,
+				3D8BB9F61C5925500025AC52 /* AnimCircleProgressWidget.swift in Sources */,
 				3D8BB9CE1C57B9BF0025AC52 /* ViewController.swift in Sources */,
 				3D8BB9CC1C57B9BF0025AC52 /* AppDelegate.swift in Sources */,
+				3D8BB9F41C59134A0025AC52 /* AnimLinexProgressWidget.swift in Sources */,
 				3D44EEAD1C58D06D00A2F7AE /* HomePlanItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,11 +472,14 @@
 			baseConfigurationReference = 5673F1F0FB32E734A574D439 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NibViews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = duyang.NibViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NibViews/NibViews-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -468,11 +489,13 @@
 			baseConfigurationReference = 05B0717DA9B46D749C3F38B3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NibViews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = duyang.NibViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NibViews/NibViews-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

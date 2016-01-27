@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -18,7 +18,7 @@
                         <constraint firstAttribute="height" constant="42" id="RlK-te-4vP"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdW-q0-ujp" userLabel="SeparatorTitle">
@@ -37,7 +37,7 @@
                                 <constraint firstAttribute="height" constant="22" id="m70-EZ-VoU"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人参与" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTl-kO-6r5">
@@ -46,7 +46,7 @@
                                 <constraint firstAttribute="height" constant="22" id="q2D-Wg-HEC"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0C-8b-iXQ" userLabel="ProgressView">
@@ -59,13 +59,13 @@
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前喂养第0天" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cog-DQ-kWa">
                             <rect key="frame" x="0.0" y="95.5" width="80" height="14.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="计划安排共888天" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOK-hM-MvA">
                             <rect key="frame" x="201" y="95.5" width="95" height="14.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6888" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLE-2H-TKP">
@@ -74,7 +74,7 @@
                                 <constraint firstAttribute="height" constant="22" id="m35-pa-iow"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.99215686270000003" green="0.4549019608" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
@@ -102,7 +102,9 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ene-3t-fmD">
                             <rect key="frame" x="0.0" y="0.0" width="160" height="42"/>
-                            <state key="normal" title="更换计划"/>
+                            <state key="normal" title="更换计划">
+                                <color key="titleColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
                             <connections>
                                 <action selector="toTapLeftBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="2j4-ym-Yq6"/>
                             </connections>
@@ -130,7 +132,9 @@
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5s-jm-yfJ">
                             <rect key="frame" x="160" y="0.0" width="160" height="42"/>
-                            <state key="normal" title="食物清单"/>
+                            <state key="normal" title="食物清单">
+                                <color key="titleColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
                             <connections>
                                 <action selector="toTapRightBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="SF9-8U-Vss"/>
                             </connections>
@@ -184,16 +188,16 @@
                 <outlet property="SeparatorBtncenter" destination="WaL-Mi-Csb" id="1TT-7J-7bi"/>
                 <outlet property="SeparatorBtntop" destination="9h4-mC-3f2" id="loW-Bn-gN2"/>
                 <outlet property="SeparatorTitle" destination="qdW-q0-ujp" id="jtd-7s-lSx"/>
-                <outlet property="allProgress" destination="BOK-hM-MvA" id="f8G-3e-zXP"/>
-                <outlet property="currentProgress" destination="cog-DQ-kWa" id="Fgw-Ef-anT"/>
+                <outlet property="allProgressLabel" destination="BOK-hM-MvA" id="mOH-dn-QFJ"/>
+                <outlet property="currentProgressLabel" destination="cog-DQ-kWa" id="5dH-Ua-SLF"/>
                 <outlet property="leftBtn" destination="ene-3t-fmD" id="zVi-sS-KDP"/>
-                <outlet property="name" destination="U2D-ZP-gB1" id="nR0-Lq-bm7"/>
+                <outlet property="nameLabel" destination="U2D-ZP-gB1" id="RDe-Ci-lds"/>
                 <outlet property="progressView" destination="T0C-8b-iXQ" id="byu-Xo-GDg"/>
                 <outlet property="rightBtn" destination="b5s-jm-yfJ" id="2Ce-Y7-Nrr"/>
-                <outlet property="title" destination="p5u-tz-ciA" id="kgj-YG-G1l"/>
-                <outlet property="useNum" destination="QLE-2H-TKP" id="ALU-HF-STu"/>
+                <outlet property="titleLabel" destination="p5u-tz-ciA" id="8gp-z2-1I7"/>
+                <outlet property="useNumLabel" destination="QLE-2H-TKP" id="ZkY-Iy-koa"/>
             </connections>
-            <point key="canvasLocation" x="316" y="395.5"/>
+            <point key="canvasLocation" x="346" y="175.5"/>
         </view>
     </objects>
 </document>
