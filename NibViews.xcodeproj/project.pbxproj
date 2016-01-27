@@ -14,6 +14,8 @@
 		3D34AE9C1C58B7FD005BCED3 /* linshi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D34AE9B1C58B7FD005BCED3 /* linshi2.png */; };
 		3D34AE9E1C58C2F3005BCED3 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D34AE9D1C58C2F3005BCED3 /* Macros.swift */; };
 		3D34AEA01C58C6EF005BCED3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3D34AE9F1C58C6EF005BCED3 /* Podfile */; };
+		3D44EEAB1C58D06200A2F7AE /* HomePlanItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D44EEAA1C58D06200A2F7AE /* HomePlanItemView.xib */; };
+		3D44EEAD1C58D06D00A2F7AE /* HomePlanItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D44EEAC1C58D06D00A2F7AE /* HomePlanItemView.swift */; };
 		3D8BB9CC1C57B9BF0025AC52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB9CB1C57B9BF0025AC52 /* AppDelegate.swift */; };
 		3D8BB9CE1C57B9BF0025AC52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB9CD1C57B9BF0025AC52 /* ViewController.swift */; };
 		3D8BB9D11C57B9BF0025AC52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8BB9CF1C57B9BF0025AC52 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		3D34AE9B1C58B7FD005BCED3 /* linshi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linshi2.png; sourceTree = "<group>"; };
 		3D34AE9D1C58C2F3005BCED3 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
 		3D34AE9F1C58C6EF005BCED3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D44EEAA1C58D06200A2F7AE /* HomePlanItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePlanItemView.xib; sourceTree = "<group>"; };
+		3D44EEAC1C58D06D00A2F7AE /* HomePlanItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePlanItemView.swift; sourceTree = "<group>"; };
 		3D8BB9C81C57B9BF0025AC52 /* NibViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8BB9CB1C57B9BF0025AC52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D8BB9CD1C57B9BF0025AC52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,23 @@
 			children = (
 				3D34AE991C58B7E6005BCED3 /* header_long_bg1.png */,
 				3D34AE9B1C58B7FD005BCED3 /* linshi2.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		3D44EEA81C58D02700A2F7AE /* HomePlanItemView */ = {
+			isa = PBXGroup;
+			children = (
+				3D44EEA91C58D05100A2F7AE /* image */,
+				3D44EEAA1C58D06200A2F7AE /* HomePlanItemView.xib */,
+				3D44EEAC1C58D06D00A2F7AE /* HomePlanItemView.swift */,
+			);
+			name = HomePlanItemView;
+			sourceTree = "<group>";
+		};
+		3D44EEA91C58D05100A2F7AE /* image */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -135,6 +156,7 @@
 			children = (
 				3D34AE931C58B73C005BCED3 /* HomeGeneralView */,
 				3D8BB9E71C57BCFC0025AC52 /* HomeLinkerView */,
+				3D44EEA81C58D02700A2F7AE /* HomePlanItemView */,
 			);
 			name = HomePage;
 			sourceTree = "<group>";
@@ -253,6 +275,7 @@
 				3D8BB9ED1C57DB470025AC52 /* homepage_linker_grown.png in Resources */,
 				3D34AE9A1C58B7E6005BCED3 /* header_long_bg1.png in Resources */,
 				3D8BB9F11C57DDBB0025AC52 /* homepage_linker_alarm.png in Resources */,
+				3D44EEAB1C58D06200A2F7AE /* HomePlanItemView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +340,7 @@
 				3D8BB9DE1C57BA9E0025AC52 /* Extension.swift in Sources */,
 				3D8BB9CE1C57B9BF0025AC52 /* ViewController.swift in Sources */,
 				3D8BB9CC1C57B9BF0025AC52 /* AppDelegate.swift in Sources */,
+				3D44EEAD1C58D06D00A2F7AE /* HomePlanItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

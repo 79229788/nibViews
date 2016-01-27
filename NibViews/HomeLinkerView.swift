@@ -5,7 +5,7 @@
 //  Created by duyang on 16/1/26.
 //  Copyright © 2016年 duyang. All rights reserved.
 //
-//  视图尺寸比例为 320 : 100
+//  视图尺寸：宽度:适配， 高度:适配，比例为320 : 100
 //
 
 import UIKit
@@ -49,7 +49,7 @@ class HomeLinkerView: UIView {
      */
     override func layoutSubviews() {
         super.layoutSubviews()
-        separatorBottom.transform = CGAffineTransformMakeScale(1, 0.5)
+        separatorBottom.transform = CGAffineTransformScale(CGAffineTransformMakeTranslation(0, 0.5), 1, 0.5)
         //设置btns为圆形
         roundBtn1.layer.cornerRadius = roundBtn1.frame.size.width / 2
         roundBtn2.layer.cornerRadius = roundBtn1.layer.cornerRadius

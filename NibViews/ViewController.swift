@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = HexRGB(0xf5f5f5)
-        let myView = HomeLinkerView.loadFromNib(frame: CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width * 100 / 320))
+        let myView = HomePlanItemView.loadFromNib(frame: CGRectMake(0, 100, self.view.frame.size.width, 235))
         self.view.addSubview(myView)
     }
 

@@ -5,7 +5,7 @@
 //  Created by duyang on 16/1/26.
 //  Copyright © 2016年 duyang. All rights reserved.
 //
-//  视图尺寸比例为 320 : 260
+//  视图尺寸：宽度:适配， 高度:适配，比例为320 : 260
 //
 
 import UIKit
@@ -18,7 +18,6 @@ class HomeGeneralView: UIView {
     @IBOutlet weak var separator1: UIView!
     @IBOutlet weak var separator2: UIView!
     
-    var round: UIView!
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
