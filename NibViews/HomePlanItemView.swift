@@ -5,7 +5,7 @@
 //  Created by duyang on 16/1/27.
 //  Copyright © 2016年 duyang. All rights reserved.
 //
-//  视图尺寸：宽度:适配， 高度:235
+//  视图尺寸：宽度:屏宽， 高度:235
 //
 
 import UIKit
@@ -25,7 +25,8 @@ class HomePlanItemView: UIView {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var useNumLabel: UILabel!
+    @IBOutlet weak var detailTextLabel: UILabel!
+    @IBOutlet weak var detailUnitLabel: UILabel!
     var currentProgressNumber: Float = 0
     var allProgressNumber: Float = 888
     @IBOutlet weak var currentProgressLabel: UILabel!
@@ -33,10 +34,10 @@ class HomePlanItemView: UIView {
     @IBOutlet private weak var leftBtn: UIButton!
     @IBOutlet private weak var rightBtn: UIButton!
     
-    @IBOutlet private weak var SeparatorTitle: UIView!
-    @IBOutlet private weak var SeparatorBtntop: UIView!
-    @IBOutlet private weak var SeparatorBtnBottom: UIView!
-    @IBOutlet private weak var SeparatorBtncenter: UIView!
+    @IBOutlet private weak var separatorTitle: UIView!
+    @IBOutlet private weak var separatorBtntop: UIView!
+    @IBOutlet private weak var separatorBtnBottom: UIView!
+    @IBOutlet private weak var separatorBtncenter: UIView!
     
     var progressWidget: AnimLinexProgressWidget!
     @IBOutlet private weak var progressView: UIView!
@@ -63,11 +64,11 @@ class HomePlanItemView: UIView {
      */
     override func layoutSubviews() {
         super.layoutSubviews()
-        SeparatorTitle.transform = CGAffineTransformMakeScale(1, 0.5)
-        SeparatorBtntop.transform = CGAffineTransformMakeScale(1, 0.5)
-        SeparatorBtnBottom.transform = CGAffineTransformMakeScale(1, 0.5)
-        SeparatorBtnBottom.transform = CGAffineTransformScale(CGAffineTransformMakeTranslation(0, 0.5), 1, 0.5)
-        SeparatorBtncenter.transform = CGAffineTransformMakeScale(0.5, 1)
+        separatorTitle.transform = CGAffineTransformMakeScale(1, 0.5)
+        separatorBtntop.transform = CGAffineTransformMakeScale(1, 0.5)
+        separatorBtnBottom.transform = CGAffineTransformMakeScale(1, 0.5)
+        separatorBtnBottom.transform = CGAffineTransformScale(CGAffineTransformMakeTranslation(0, 0.5), 1, 0.5)
+        separatorBtncenter.transform = CGAffineTransformMakeScale(0.5, 1)
         
         progressWidget.frame = CGRectMake(0, 0, progressView.frame.size.width, progressView.frame.size.height)
     }
