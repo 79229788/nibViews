@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = HexRGB(0xf5f5f5)
-        let myView = HomeGeneralView.loadFromNib(frame: CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.width * 260 / 320))
+        let myView = HomeGeneralView.loadFromNib(frame: CGRectMake(0, 0, kScreen_Width, kScreen_Width * 260 / 320))
         self.view.addSubview(myView)
+        
+        let label = UILabel()
+        label.contentMode = UIViewContentMode.Top
     }
 
 

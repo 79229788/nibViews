@@ -184,20 +184,21 @@
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="SeparatorBtnBottom" destination="9BB-J7-GSt" id="oao-sd-dhL"/>
-                <outlet property="SeparatorBtncenter" destination="WaL-Mi-Csb" id="1TT-7J-7bi"/>
-                <outlet property="SeparatorBtntop" destination="9h4-mC-3f2" id="loW-Bn-gN2"/>
-                <outlet property="SeparatorTitle" destination="qdW-q0-ujp" id="jtd-7s-lSx"/>
                 <outlet property="allProgressLabel" destination="BOK-hM-MvA" id="mOH-dn-QFJ"/>
                 <outlet property="currentProgressLabel" destination="cog-DQ-kWa" id="5dH-Ua-SLF"/>
+                <outlet property="detailTextLabel" destination="QLE-2H-TKP" id="4Yg-hp-6Kl"/>
+                <outlet property="detailUnitLabel" destination="qTl-kO-6r5" id="7mJ-Z5-PUc"/>
                 <outlet property="leftBtn" destination="ene-3t-fmD" id="zVi-sS-KDP"/>
                 <outlet property="nameLabel" destination="U2D-ZP-gB1" id="RDe-Ci-lds"/>
                 <outlet property="progressView" destination="T0C-8b-iXQ" id="byu-Xo-GDg"/>
                 <outlet property="rightBtn" destination="b5s-jm-yfJ" id="2Ce-Y7-Nrr"/>
+                <outlet property="separatorBtnBottom" destination="9BB-J7-GSt" id="PLc-g6-CAd"/>
+                <outlet property="separatorBtncenter" destination="WaL-Mi-Csb" id="iPL-cv-Xz9"/>
+                <outlet property="separatorBtntop" destination="9h4-mC-3f2" id="TE8-R7-bgn"/>
+                <outlet property="separatorTitle" destination="qdW-q0-ujp" id="3u5-TI-nU7"/>
                 <outlet property="titleLabel" destination="p5u-tz-ciA" id="8gp-z2-1I7"/>
-                <outlet property="useNumLabel" destination="QLE-2H-TKP" id="ZkY-Iy-koa"/>
             </connections>
-            <point key="canvasLocation" x="346" y="175.5"/>
+            <point key="canvasLocation" x="365" y="170.5"/>
         </view>
     </objects>
 </document>

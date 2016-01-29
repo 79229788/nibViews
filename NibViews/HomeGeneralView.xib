@@ -270,7 +270,7 @@
                 <outlet property="separator2" destination="r8D-xo-vet" id="W4v-Z5-cR6"/>
                 <outlet property="titleLabel" destination="M41-Ip-eNP" id="RVX-OJ-dG5"/>
             </connections>
-            <point key="canvasLocation" x="316" y="398"/>
+            <point key="canvasLocation" x="346" y="388"/>
         </view>
         <navigationItem title="Title" id="s88-vu-OhI"/>
     </objects>

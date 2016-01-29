@@ -249,7 +249,7 @@
                 <outlet property="roundBtn4" destination="pTg-Gy-cR0" id="raL-cV-raq"/>
                 <outlet property="separatorBottom" destination="ivK-di-3Yk" id="Lyt-6h-cFV"/>
             </connections>
-            <point key="canvasLocation" x="217" y="106"/>
+            <point key="canvasLocation" x="230" y="97"/>
         </view>
     </objects>
     <resources>

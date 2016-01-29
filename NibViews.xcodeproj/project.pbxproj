@@ -31,6 +31,11 @@
 		3D8BB9F41C59134A0025AC52 /* AnimLinexProgressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB9F31C59134A0025AC52 /* AnimLinexProgressWidget.swift */; };
 		3D8BB9F61C5925500025AC52 /* AnimCircleProgressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB9F51C5925500025AC52 /* AnimCircleProgressWidget.swift */; };
 		3D8BB9F81C5928C20025AC52 /* AnimNumTimerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB9F71C5928C20025AC52 /* AnimNumTimerWidget.swift */; };
+		3D8BB9FF1C59E3A10025AC52 /* HomeTipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8BB9FE1C59E3A10025AC52 /* HomeTipsView.xib */; };
+		3D8BBA011C59E3AF0025AC52 /* HomeTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BBA001C59E3AF0025AC52 /* HomeTipsView.swift */; };
+		3D8BBA041C59E8C90025AC52 /* public_warning_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8BBA031C59E8C90025AC52 /* public_warning_ico.png */; };
+		3D8BBA091C59F9B00025AC52 /* public_downarrow_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8BBA081C59F9B00025AC52 /* public_downarrow_ico.png */; };
+		3D8BBA0C1C59FB8D0025AC52 /* CommonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BBA0B1C59FB8D0025AC52 /* CommonHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +66,11 @@
 		3D8BB9F51C5925500025AC52 /* AnimCircleProgressWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimCircleProgressWidget.swift; sourceTree = "<group>"; };
 		3D8BB9F71C5928C20025AC52 /* AnimNumTimerWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimNumTimerWidget.swift; sourceTree = "<group>"; };
 		3D8BB9FA1C5929020025AC52 /* NibViews-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NibViews-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D8BB9FE1C59E3A10025AC52 /* HomeTipsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTipsView.xib; sourceTree = "<group>"; };
+		3D8BBA001C59E3AF0025AC52 /* HomeTipsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTipsView.swift; sourceTree = "<group>"; };
+		3D8BBA031C59E8C90025AC52 /* public_warning_ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = public_warning_ico.png; sourceTree = "<group>"; };
+		3D8BBA081C59F9B00025AC52 /* public_downarrow_ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = public_downarrow_ico.png; sourceTree = "<group>"; };
+		3D8BBA0B1C59FB8D0025AC52 /* CommonHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonHandler.swift; sourceTree = "<group>"; };
 		5673F1F0FB32E734A574D439 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DE2FFBC5C52108437732513B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -140,6 +150,7 @@
 				3D8BB9D21C57B9BF0025AC52 /* Assets.xcassets */,
 				3D8BB9CF1C57B9BF0025AC52 /* Main.storyboard */,
 				3D8BB9D41C57B9BF0025AC52 /* LaunchScreen.storyboard */,
+				3D8BBA0A1C59FB800025AC52 /* Handler */,
 				3D8BB9F21C5913130025AC52 /* Widget */,
 				3D8BB9D71C57B9BF0025AC52 /* Info.plist */,
 				3D8BB9DD1C57BA9E0025AC52 /* Extension.swift */,
@@ -152,6 +163,7 @@
 		3D8BB9DF1C57BB010025AC52 /* IHands */ = {
 			isa = PBXGroup;
 			children = (
+				3D8BBA051C59E8EA0025AC52 /* image */,
 				3D8BB9E01C57BB160025AC52 /* HomePage */,
 			);
 			name = IHands;
@@ -163,6 +175,7 @@
 				3D34AE931C58B73C005BCED3 /* HomeGeneralView */,
 				3D8BB9E71C57BCFC0025AC52 /* HomeLinkerView */,
 				3D44EEA81C58D02700A2F7AE /* HomePlanItemView */,
+				3D8BB9FD1C59E36E0025AC52 /* HomeTipsView */,
 			);
 			name = HomePage;
 			sourceTree = "<group>";
@@ -197,6 +210,40 @@
 				3D8BB9F71C5928C20025AC52 /* AnimNumTimerWidget.swift */,
 			);
 			name = Widget;
+			sourceTree = "<group>";
+		};
+		3D8BB9FD1C59E36E0025AC52 /* HomeTipsView */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BBA021C59E3B20025AC52 /* image */,
+				3D8BB9FE1C59E3A10025AC52 /* HomeTipsView.xib */,
+				3D8BBA001C59E3AF0025AC52 /* HomeTipsView.swift */,
+			);
+			name = HomeTipsView;
+			sourceTree = "<group>";
+		};
+		3D8BBA021C59E3B20025AC52 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		3D8BBA051C59E8EA0025AC52 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BBA031C59E8C90025AC52 /* public_warning_ico.png */,
+				3D8BBA081C59F9B00025AC52 /* public_downarrow_ico.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		3D8BBA0A1C59FB800025AC52 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BBA0B1C59FB8D0025AC52 /* CommonHandler.swift */,
+			);
+			name = Handler;
 			sourceTree = "<group>";
 		};
 		87C48962DA8BC304D3AFEFCF /* Pods */ = {
@@ -279,10 +326,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D8BB9E41C57BB5E0025AC52 /* HomeLinkerView.xib in Resources */,
+				3D8BBA041C59E8C90025AC52 /* public_warning_ico.png in Resources */,
 				3D8BB9D61C57B9BF0025AC52 /* LaunchScreen.storyboard in Resources */,
 				3D8BB9EF1C57DCEC0025AC52 /* homepage_linker_recipes.png in Resources */,
 				3D8BB9E91C57BF690025AC52 /* homepage_linker_bg.png in Resources */,
 				3D34AE961C58B758005BCED3 /* HomeGeneralView.xib in Resources */,
+				3D8BBA091C59F9B00025AC52 /* public_downarrow_ico.png in Resources */,
 				3D8BB9D31C57B9BF0025AC52 /* Assets.xcassets in Resources */,
 				3D8BB9EB1C57D8640025AC52 /* homepage_linker_stats.png in Resources */,
 				3D8BB9D11C57B9BF0025AC52 /* Main.storyboard in Resources */,
@@ -291,6 +340,7 @@
 				3D34AE9A1C58B7E6005BCED3 /* header_long_bg1.png in Resources */,
 				3D8BB9F11C57DDBB0025AC52 /* homepage_linker_alarm.png in Resources */,
 				3D44EEAB1C58D06200A2F7AE /* HomePlanItemView.xib in Resources */,
+				3D8BB9FF1C59E3A10025AC52 /* HomeTipsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +404,11 @@
 				3D34AE971C58B758005BCED3 /* HomeGeneralView.swift in Sources */,
 				3D8BB9E21C57BB530025AC52 /* HomeLinkerView.swift in Sources */,
 				3D8BB9DE1C57BA9E0025AC52 /* Extension.swift in Sources */,
+				3D8BBA011C59E3AF0025AC52 /* HomeTipsView.swift in Sources */,
 				3D8BB9F61C5925500025AC52 /* AnimCircleProgressWidget.swift in Sources */,
 				3D8BB9CE1C57B9BF0025AC52 /* ViewController.swift in Sources */,
 				3D8BB9CC1C57B9BF0025AC52 /* AppDelegate.swift in Sources */,
+				3D8BBA0C1C59FB8D0025AC52 /* CommonHandler.swift in Sources */,
 				3D8BB9F41C59134A0025AC52 /* AnimLinexProgressWidget.swift in Sources */,
 				3D44EEAD1C58D06D00A2F7AE /* HomePlanItemView.swift in Sources */,
 			);

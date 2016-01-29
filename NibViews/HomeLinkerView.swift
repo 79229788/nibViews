@@ -5,7 +5,7 @@
 //  Created by duyang on 16/1/26.
 //  Copyright © 2016年 duyang. All rights reserved.
 //
-//  视图尺寸：宽度:适配， 高度:适配，比例为320 : 100
+//  视图尺寸：宽度:屏宽， 高度:按比例，比例为320 : 100
 //
 
 import UIKit
